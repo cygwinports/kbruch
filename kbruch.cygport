@@ -6,3 +6,5 @@ RELEASE=1
 CATEGORY="Math"
 SUMMARY="KDE fraction exercise game"
 DESCRIPTION="Part of the KDE education suite"
+
+REQUIRES="kde-runtime"
