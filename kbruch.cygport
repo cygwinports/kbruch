@@ -1,10 +1,13 @@
-inherit kde4
+inherit kf5
 
 NAME="kbruch"
-VERSION=14.12.3
+VERSION=15.04.3
 RELEASE=1
 CATEGORY="Math"
 SUMMARY="KDE fraction exercise game"
 DESCRIPTION="Part of the KDE education suite"
 
-REQUIRES="kde-runtime"
+PATCH_URI="
+	http://pkgs.fedoraproject.org/cgit/kbruch.git/plain/kbruch-15.04.0-dt.patch?h=f22
+	15.04.3-desktop-exec.patch
+"
